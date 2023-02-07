@@ -14,76 +14,40 @@ lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Africa/Casablanca
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
-
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+title: Rhirha's Blog                          # the main title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
-
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+  
+url: 'https://hrhirha.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: hrhirha
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: hrhirha
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com             # change to your email address
+  name: Hamza
+  email: rhirha.hamza@gmail.com
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
-google_site_verification:               # fill in to your verification string
+    - https://twitter.com/hrhirha
+    - https://github.com/hrhirha
+    - https://www.linkedin.com/in/hrhirha
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id:                 # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
-
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
-#
 theme_mode:   # [light|dark]
 
-# The CDN endpoint for images.
-# Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
-img_cdn:
+avatar: 'https://avatars.githubusercontent.com/u/52323455?'
 
-# the avatar on sidebar, support local or CORS resources
-avatar:
-
-# boolean type, the global switch for ToC in posts.
 toc: true
 
 comments:
@@ -105,14 +69,6 @@ comments:
     input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
-
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
-assets:
-  self_host:
-    enabled:      # boolean, keep empty means false
-    # specify the Jekyll environment, empty means both
-    # only works if `assets.self_host.enabled` is 'true'
-    env:          # [development|production]
 
 pwa:
   enabled: true   # the option for PWA feature
