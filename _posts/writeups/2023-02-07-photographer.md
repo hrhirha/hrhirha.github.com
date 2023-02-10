@@ -2,7 +2,7 @@
 layout: post
 title: Writeup for Photographer machine form vulnhub
 categories: [writeup]
-tags: [vulnhub, Arbitraty file upload, SUID, PHP]
+tags: [vulnhub, Arbitrary file upload, SUID, PHP]
 ---
 
 **Machine** | [Photographer](https://www.vulnhub.com/entry/photographer-1,519/)
@@ -10,8 +10,6 @@ tags: [vulnhub, Arbitraty file upload, SUID, PHP]
 **Explanation** | The Koken CMS upload restrictions are based on a list of allowed file extensions (withelist), which facilitates bypass through the handling of the HTTP request via Burp.
 **Privilige Escalation Vulnerability** | SUID binary abuse.
 **Explanation** | `/usr/bin/php7.2` has the SUID bit set, which allows a non-root user to run command as root using the `-r` switch.
-
----
 
 # Enumeration
 
