@@ -1,8 +1,8 @@
 ---
 layout: post
 title: WriteUp for PhotoBomb machine from Hack the Box
-categories: [HTB]
-tags: [Command injection, PATH abuse]
+categories: [writeup]
+tags: [HTB, Command injection, PATH abuse]
 ---
 
 ![](/assets/photobomb/Photobomb.png)
